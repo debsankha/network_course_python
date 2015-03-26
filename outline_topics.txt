@@ -1,0 +1,17 @@
+Day 1
+=====
+
+Graph theory basics (From last year)	(1hr)
+Networkx introduction (30 min)
+Basic exercises	(1.5 hrs)
+
+Semi-advance networkx talk	(30mins)
+	Shortest path
+	Cycles/loops
+	Diameter
+	Edge/node attributes
+
+Leaf exercise part I	(30mins)
+
+Visualization	(30 mins)
+Exercise	(1.5 hrs)
