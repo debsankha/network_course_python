@@ -15,3 +15,29 @@ Leaf exercise part I	(30mins)
 
 Visualization	(30 mins)
 Exercise	(1.5 hrs)
+
+
+Day 2
+=====
+
+Graph algorithms	1.5 hr
+	Centrality
+	Connectedness
+	Degree distribution
+	Minimum spanning tree
+	Planarity
+	.
+	.
+	.
+	.
+
+Exercises	1.5 hrs
+
+
+Talk (graph tool)		15 mins
+Talk on fun stuff		45 minutes
+
+Fun Exercises+questions		2 hrs
+	Random walk
+	Changing graphs	(find realistic examples)
+
