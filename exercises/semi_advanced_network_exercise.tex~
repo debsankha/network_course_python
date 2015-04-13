@@ -1,0 +1,105 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{color}
+\usepackage{listings}
+\usepackage{setspace}
+
+
+\definecolor{Code}{rgb}{0,0,0}
+\definecolor{Decorators}{rgb}{0.5,0.5,0.5}
+\definecolor{Numbers}{rgb}{0.5,0,0}
+\definecolor{MatchingBrackets}{rgb}{0.25,0.5,0.5}
+\definecolor{Keywords}{rgb}{0,0,1}
+\definecolor{self}{rgb}{0,0,0}
+\definecolor{Strings}{rgb}{0,0.63,0}
+\definecolor{Comments}{rgb}{0.5,0.5,0.5}
+\definecolor{Backquotes}{rgb}{0,0,0}
+\definecolor{Classname}{rgb}{0,0,0}
+\definecolor{FunctionName}{rgb}{0,0,0}
+\definecolor{Operators}{rgb}{0,0,0}
+\definecolor{Background}{rgb}{0.98,0.98,0.98}
+
+\lstnewenvironment{python}[1][]{
+\lstset{
+numbers=left,
+numberstyle=\footnotesize,
+numbersep=1em,
+xleftmargin=1em,
+framextopmargin=2em,
+framexbottommargin=2em,
+showspaces=false,
+showtabs=false,
+showstringspaces=false,
+frame=l,
+tabsize=4,
+% Basic
+basicstyle=\ttfamily\small\setstretch{1},
+backgroundcolor=\color{Background},
+language=Python,
+% Comments
+commentstyle=\color{Comments}\slshape,
+% Strings
+stringstyle=\color{Strings},
+morecomment=[s][\color{Strings}]{"""}{"""},
+morecomment=[s][\color{Strings}]{'''}{'''},
+% keywords
+morekeywords={import,from,class,def,for,while,if,is,in,elif,else,not,and,or,print,break,continue,return,True,False,None,access,as,,del,except,exec,finally,global,import,lambda,pass,print,raise,try,assert},
+keywordstyle={\color{Keywords}\bfseries},
+% additional keywords
+morekeywords={[2]@invariant},
+keywordstyle={[2]\color{Decorators}\slshape},
+emph={self},
+emphstyle={\color{self}\slshape},
+%
+}}{}
+
+
+\begin{document}
+\section{Shortest Paths and Cycles}
+\begin{itemize}
+\item[a)] Load the graph \texttt{small\_graph.glickle}
+\item[b)] How many nodes and edges does the graph have?
+\item[c)] How many cycles does the cycle basis of the graph contain? How Many edges does the longest cycle in the cycle basis have?
+\item[d)] Create a small graph using \texttt{G.add\_nodes\_from()} and \texttt{G.add\_edges\_from()} containing about 5-10 nodes and edges. Check if the graph has a planar embedding using the following check for planarity:
+
+\begin{python}
+#function checks if graph G has K(5) or K(3,3) as minors,
+#returns True /False on planarity 
+def is_planar(G):
+    result=True
+    n=len(G.nodes())
+    
+    if n > 5:
+        for subnodes in it.combinations(G.nodes(),6):
+            subG=G.subgraph(subnodes)
+            # check if the graph G has a subgraph K(3,3)
+            if bipartite.is_bipartite(G):
+                X, Y = bipartite.sets(G)
+                if len(X)==3:
+                    result=False
+                    
+    if n > 4 and result:
+        for subnodes in it.combinations(G.nodes(),5):
+            subG=G.subgraph(subnodes)
+            # check if the graph G has a subgraph K(5)
+            if len(subG.edges())==10:
+                result=False
+                
+    return result
+\end{python}
+
+\item[e)] Select two (random) nodes in the graph and calculate the length of the shortest path between them.
+\item[f)] What is the greatest distance between any pair of vertices? (Longest shortest path/diameter)\\
+\item[g)] Select one node in the graph. Create and plot a histogram of the shortest paths from this node to every other node.
+\end{itemize}
+
+\section{Edge and Node Attributes}
+\begin{itemize}
+\item[a)] Which node/edge attributes does the graph have? 
+\item[b)] Using the node attributes calculate the total length of the graph.
+\item[c)] Using the lengths calculated in c) create a new edge attribute called ``length'' for each edge. Calculate the length of the graph again using the new edge attribute.
+\item[d)] Create and plot a histogram of edge lengths.
+\end{itemize}
+
+\end{document}
