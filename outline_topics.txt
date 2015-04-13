@@ -1,26 +1,28 @@
 Day 1
 =====
 
-Graph theory basics (From last year)	(1hr)
-Networkx introduction (30 min)
-Basic exercises	(1.5 hrs)
+Graph theory basics (From last year)	(1hr)		D
+Networkx introduction (30 min)				D
+Basic exercises	(1.5 hrs)				A
 
-Semi-advance networkx talk	(30mins)
+Semi-advance networkx talk	(30mins)		J
 	Shortest path
 	Cycles/loops
 	Diameter
 	Edge/node attributes
 
-Leaf exercise part I	(30mins)
+Leaf exercise part I	(30mins)			J
 
-Visualization	(30 mins)
-Exercise	(1.5 hrs)
+Visualization	(30 mins)				J
+	Layouts
+	All corings
+Exercise	(1.5 hrs)				A
 
 
 Day 2
 =====
 
-Graph algorithms	1.5 hr
+Graph algorithms	1.5 hr				D
 	Centrality
 	Connectedness
 	Degree distribution
@@ -31,11 +33,14 @@ Graph algorithms	1.5 hr
 	.
 	.
 
-Exercises	1.5 hrs
+Exercises	1.5 hrs					A
 
 
-Talk (graph tool)		15 mins
-Talk on fun stuff		45 minutes
+Talk (graph tool)		15 mins			D
+Talk on fun stuff		45 minutes		
+	Movies
+	Graphs that change
+	Random walk
 
 Fun Exercises+questions		2 hrs
 	Random walk
