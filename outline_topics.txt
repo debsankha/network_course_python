@@ -11,12 +11,12 @@ Semi-advance networkx talk	(30mins)		J
 	Diameter
 	Edge/node attributes
 
-Leaf exercise part I	(30mins)			J
+semi advanced exercise	(30mins)			J
 
-Visualization	(30 mins)				J
+Visualization talk	(30 mins)			J
 	Layouts
 	All corings
-Exercise	(1.5 hrs)				A
+visualization exercise	(1.5 hrs)			A
 
 
 Day 2
@@ -55,7 +55,7 @@ Indicated with * are topics they *need* to know about to solve the exercises. Th
 - Interactive graph manipulation using matplotlibs interactive mode
 - interfacing with other programs/languages: formats to store graphs in (what is a .gpickle? introduce .gml)
 
-Fun Exercises+questions		2 hrs
+Fun/Advanced Exercises+questions		2 hrs
 	Random walk
 	Changing graphs	(find realistic examples)
 
