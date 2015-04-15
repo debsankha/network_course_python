@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="long" for="edge" id="d1" />
+  <key attr.name="size" attr.type="long" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="1">
+      <data key="d0">800</data>
+    </node>
+    <node id="5">
+      <data key="d0">300</data>
+    </node>
+    <node id="6">
+      <data key="d0">400</data>
+    </node>
+    <node id="7">
+      <data key="d0">700</data>
+    </node>
+    <edge source="1" target="5">
+      <data key="d1">2</data>
+    </edge>
+    <edge source="1" target="7">
+      <data key="d1">4</data>
+    </edge>
+    <edge source="6" target="7">
+      <data key="d1">5</data>
+    </edge>
+  </graph>
+</graphml>
