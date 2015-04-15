@@ -42,6 +42,19 @@ Talk on fun stuff		45 minutes
 	Graphs that change
 	Random walk
 
+Indicated with * are topics they *need* to know about to solve the exercises. The rest of the points are just suggestions
+
+*- How to create random/non-random graphs. What is special about the different graph-creation-models, which model does fit to which task.
+*- What are connected components of a graph? How to access them via networkx?
+*- What is a random walk? How to implement it?
+*- limitations of networkx: speed issues, slow/costly algorithms
+
+- simplified epidemic models (simulate a small emidemic to give them something to start from for the zombie apocalypse), maybe mention discrete vs. non-discrete implementations
+- things networkx just cannot do -> methods to improve performance and functionality (graph-tool, boost, cython)
+- creating animations with matplotlib to visualize dynamics in graphs
+- Interactive graph manipulation using matplotlibs interactive mode
+- interfacing with other programs/languages: formats to store graphs in (what is a .gpickle? introduce .gml)
+
 Fun Exercises+questions		2 hrs
 	Random walk
 	Changing graphs	(find realistic examples)
