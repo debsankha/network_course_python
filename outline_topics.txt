@@ -1,33 +1,30 @@
-Day 1
+Day 1						who?	time?		status
 =====
-
-Talk: Python basics (from python course?)		D	10:00-11:00
-Exercises: Python basics				D/J	11:00-12:00
-Lunchbreak						A	12:00-13:00
-
-Talk: Introduction to networks				D	13:00-13:30
-Talk: Introduction to NetworkX				J	13:30-14:00
-Exercises: Basic NetworkX				J	14:00-15:00
-Talk: Semi advanced network topics			D	15:00-15:30
+Talk: Python basics builtins			D	10:00-10:30	cannot open notebook
+Talk: Python basics libraries			D	10:30-11:00	remove networkx, include scipy?
+Exercises: Python basics			D/J	11:00-12:00	missing, are there some from the python course?
+Lunchbreak					A	12:00-13:00	omnomnom
+Talk: Introduction to graphs			D	13:00-13:30	done
+Talk: Introduction to NetworkX			J	13:30-14:00	done
+Exercises: Basic NetworkX			J	14:00-15:00	gpickle has issues on my laptop, otherwise done
+Talk: Semi advanced network topics		D	15:00-15:30	missing?
 	Shortest path
 	Cycles/loops
 	Diameter
 	Edge/node attributes
-Exercises: Semi advanced network exercises		J	15:30-17:00
-
+Exercises: Semi advanced network exercises	J	15:30-17:00	done
 
 Day 2
 =====
-Talk: Visualization					J	10:00-10:30
-Exercise: Visualization					J	10:30-12:00
-Lunchbreak						A	12:00-13:00
-Talk: Graph algorithms					D	13:00-14:00
+Talk: Visualization				J	10:00-10:30	done, maybe convert to notebook
+Exercise: Visualization				J	10:30-12:00	done
+Lunchbreak					A	12:00-13:00	omnomnom
+Talk: Graph algorithms				D	13:00-14:00	done
 	Centrality
 	Connectedness
 	Degree distribution
 	Minimum spanning tree
 	Planarity
-
-Exercises: Networkx advanced				D	14:00-15:30
-Talk: Graph tool					D	15:30-15:45			
-Exercises: Mini-projects				J	15:45-17:00
+Exercises: Networkx advanced			D	14:00-15:30	done
+Talk: Graph tool				D	15:30-15:45	graph_tool does not install on my laptop :-/		
+Exercises: Mini-projects			J	15:45-17:00	done
