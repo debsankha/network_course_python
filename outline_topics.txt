@@ -1,61 +1,33 @@
 Day 1
 =====
 
-Graph theory basics (From last year)	(1hr)		D
-Networkx introduction (30 min)				D
-Basic exercises	(1.5 hrs)				A
+Talk: Python basics (from python course?)		D	10:00-11:00
+Exercises: Python basics				D/J	11:00-12:00
+Lunchbreak						A	12:00-13:00
 
-Semi-advance networkx talk	(30mins)		J
+Talk: Introduction to networks				D	13:00-13:30
+Talk: Introduction to NetworkX				J	13:30-14:00
+Exercises: Basic NetworkX				J	14:00-15:00
+Talk: Semi advanced network topics			D	15:00-15:30
 	Shortest path
 	Cycles/loops
 	Diameter
 	Edge/node attributes
-
-semi advanced exercise	(30mins)			J
-
-Visualization talk	(30 mins)			J
-	Layouts
-	All corings
-visualization exercise	(1.5 hrs)			A
+Exercises: Semi advanced network exercises		J	15:30-17:00
 
 
 Day 2
 =====
-
-Graph algorithms	1.5 hr				D
+Talk: Visualization					J	10:00-10:30
+Exercise: Visualization					J	10:30-12:00
+Lunchbreak						A	12:00-13:00
+Talk: Graph algorithms					D	13:00-14:00
 	Centrality
 	Connectedness
 	Degree distribution
 	Minimum spanning tree
 	Planarity
-	.
-	.
-	.
-	.
 
-Exercises	1.5 hrs					A
-
-
-Talk (graph tool)		15 mins			D
-Talk on fun stuff		45 minutes		
-	Movies
-	Graphs that change
-	Random walk
-
-Indicated with * are topics they *need* to know about to solve the exercises. The rest of the points are just suggestions
-
-*- How to create random/non-random graphs. What is special about the different graph-creation-models, which model does fit to which task.
-*- What are connected components of a graph? How to access them via networkx?
-*- What is a random walk? How to implement it?
-*- limitations of networkx: speed issues, slow/costly algorithms
-
-- simplified epidemic models (simulate a small emidemic to give them something to start from for the zombie apocalypse), maybe mention discrete vs. non-discrete implementations
-- things networkx just cannot do -> methods to improve performance and functionality (graph-tool, boost, cython)
-- creating animations with matplotlib to visualize dynamics in graphs
-- Interactive graph manipulation using matplotlibs interactive mode
-- interfacing with other programs/languages: formats to store graphs in (what is a .gpickle? introduce .gml)
-
-Fun/Advanced Exercises+questions		2 hrs
-	Random walk
-	Changing graphs	(find realistic examples)
-
+Exercises: Networkx advanced				D	14:00-15:30
+Talk: Graph tool					D	15:30-15:45			
+Exercises: Mini-projects				J	15:45-17:00
