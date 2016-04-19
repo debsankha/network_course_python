@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="double" for="edge" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="LAX" />
+    <node id="RIC" />
+    <node id="FRA" />
+    <node id="MLA" />
+    <node id="YYZ" />
+    <node id="PWM" />
+    <node id="BEY" />
+    <node id="ADD" />
+    <node id="TIJ" />
+    <node id="SNN" />
+    <node id="LGW" />
+    <node id="VCE" />
+    <node id="CJS" />
+    <node id="SAN" />
+    <node id="MGA" />
+    <node id="PTY" />
+    <node id="CDG" />
+    <node id="CMH" />
+    <edge source="LAX" target="RIC">
+      <data key="d0">3698.5747961938105</data>
+    </edge>
+    <edge source="LAX" target="PTY">
+      <data key="d0">4842.327552039023</data>
+    </edge>
+    <edge source="LAX" target="MGA">
+      <data key="d0">4060.5871936124663</data>
+    </edge>
+    <edge source="LAX" target="YYZ">
+      <data key="d0">3491.7624988415696</data>
+    </edge>
+    <edge source="LAX" target="TIJ">
+      <data key="d0">205.2128472750958</data>
+    </edge>
+    <edge source="LAX" target="SNN">
+      <data key="d0">8217.506715916745</data>
+    </edge>
+    <edge source="LAX" target="LGW">
+      <data key="d0">8792.109011745264</data>
+    </edge>
+    <edge source="LAX" target="VCE">
+      <data key="d0">9882.293277538183</data>
+    </edge>
+    <edge source="LAX" target="SAN">
+      <data key="d0">175.62244640174586</data>
+    </edge>
+    <edge source="LAX" target="FRA">
+      <data key="d0">9315.399893900814</data>
+    </edge>
+    <edge source="LAX" target="CDG">
+      <data key="d0">9096.793143645225</data>
+    </edge>
+    <edge source="LAX" target="CMH">
+      <data key="d0">3202.060463470945</data>
+    </edge>
+    <edge source="RIC" target="PWM">
+      <data key="d0">902.5287153119745</data>
+    </edge>
+    <edge source="RIC" target="CMH">
+      <data key="d0">556.5548156102898</data>
+    </edge>
+    <edge source="RIC" target="YYZ">
+      <data key="d0">712.9692203918436</data>
+    </edge>
+    <edge source="RIC" target="SAN">
+      <data key="d0">3635.2927649701583</data>
+    </edge>
+    <edge source="FRA" target="MLA">
+      <data key="d0">1645.5353280661886</data>
+    </edge>
+    <edge source="FRA" target="VCE">
+      <data key="d0">577.1872932432697</data>
+    </edge>
+    <edge source="FRA" target="YYZ">
+      <data key="d0">6338.686185055444</data>
+    </edge>
+    <edge source="FRA" target="SAN">
+      <data key="d0">9371.287905666073</data>
+    </edge>
+    <edge source="FRA" target="LGW">
+      <data key="d0">628.2516160202888</data>
+    </edge>
+    <edge source="FRA" target="BEY">
+      <data key="d0">2837.5232304249703</data>
+    </edge>
+    <edge source="FRA" target="CDG">
+      <data key="d0">446.6445854751236</data>
+    </edge>
+    <edge source="FRA" target="ADD">
+      <data key="d0">5346.131986736553</data>
+    </edge>
+    <edge source="MLA" target="LGW">
+      <data key="d0">2061.6662400682885</data>
+    </edge>
+    <edge source="MLA" target="VCE">
+      <data key="d0">1086.8582281441547</data>
+    </edge>
+    <edge source="YYZ" target="LGW">
+      <data key="d0">5735.589735082426</data>
+    </edge>
+    <edge source="YYZ" target="CMH">
+      <data key="d0">489.8750898020181</data>
+    </edge>
+    <edge source="YYZ" target="SAN">
+      <data key="d0">3462.8411451493994</data>
+    </edge>
+    <edge source="YYZ" target="CDG">
+      <data key="d0">6016.066052343258</data>
+    </edge>
+    <edge source="YYZ" target="SNN">
+      <data key="d0">5116.050075503609</data>
+    </edge>
+    <edge source="PWM" target="CMH">
+      <data key="d0">1116.656358403322</data>
+    </edge>
+    <edge source="BEY" target="CDG">
+      <data key="d0">3185.0744960510447</data>
+    </edge>
+    <edge source="BEY" target="ADD">
+      <data key="d0">2781.3712522852525</data>
+    </edge>
+    <edge source="ADD" target="CDG">
+      <data key="d0">5577.22194910237</data>
+    </edge>
+    <edge source="TIJ" target="CDG" />
+    <edge source="TIJ" target="CJS">
+      <data key="d0">997.1284164344642</data>
+    </edge>
+    <edge source="SNN" target="LGW">
+      <data key="d0">622.5386459005956</data>
+    </edge>
+    <edge source="SNN" target="CDG">
+      <data key="d0">901.9151141139355</data>
+    </edge>
+    <edge source="LGW" target="VCE">
+      <data key="d0">1116.5587531642727</data>
+    </edge>
+    <edge source="LGW" target="SAN">
+      <data key="d0">8838.915153502832</data>
+    </edge>
+    <edge source="LGW" target="CDG">
+      <data key="d0">307.34445687669347</data>
+    </edge>
+    <edge source="VCE" target="CDG">
+      <data key="d0">834.8210213418265</data>
+    </edge>
+    <edge source="SAN" target="CMH">
+      <data key="d0">3152.2773068436572</data>
+    </edge>
+    <edge source="MGA" target="PTY">
+      <data key="d0">815.7305736560804</data>
+    </edge>
+    <edge source="PTY" target="CDG" />
+  </graph>
+</graphml>
